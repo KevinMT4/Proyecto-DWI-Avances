@@ -271,11 +271,12 @@ const Providers: React.FC = () => {
                 className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:scale-105"
               >
                 <div className="relative">
-                  <img
+                  {/*<img
                     src={provider.logo}
                     alt={provider.name}
                     className="w-full h-48 object-cover"
-                  />
+                  />*/}
+                  <img src={`${import.meta.env.BASE_URL}${provider.logo}`} alt={provider.name} className="w-full h-48 object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                   <div className="absolute bottom-4 left-4 right-4">
                     <h2 className="text-2xl font-bold text-white mb-1">

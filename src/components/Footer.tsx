@@ -10,11 +10,12 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <img 
+              {/*<img 
                 src="/Logo comercial RUJADO.jpg" 
                 alt="Comercial RUJADO" 
                 className="h-10 w-10 rounded-full object-cover"
-              />
+              />*/}
+              <img src={`${import.meta.env.BASE_URL}Logo comercial RUJADO.jpg`} alt="Comercial RUJADO" className="h-10 w-10 rounded-full object-cover" />
               <div className="flex flex-col">
                 <span className="text-xl font-bold">Comercial RUJADO</span>
                 <span className="text-xs text-gray-400">Todo para la industria del helado</span>

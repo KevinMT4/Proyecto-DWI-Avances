@@ -111,11 +111,12 @@ const Home: React.FC = () => {
                     <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-12 mx-4 rounded-xl">
                       <div className="flex flex-col md:flex-row items-center gap-8">
                         <div className="flex-shrink-0">
-                          <img
+                          {/*<img
                             src={provider.logo}
                             alt={provider.name}
                             className="w-32 h-32 object-contain bg-white rounded-lg shadow-lg p-4"
-                          />
+                          />*/}
+                          <img src={`${import.meta.env.BASE_URL}${provider.logo}`} alt={provider.name} className="w-32 h-32 object-contain bg-white rounded-lg shadow-lg p-4" />
                         </div>
                         <div className="flex-1 text-center md:text-left">
                           <h3 className="text-3xl font-bold text-gray-900 mb-4">
