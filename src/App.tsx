@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -17,6 +17,7 @@ function App() {
           <Route path="/proveedores" element={<Providers />} />
           <Route path="/nosotros" element={<About />} />
           <Route path="/contacto" element={<Contact />} />
+          <Route path="*" element={<Navigate to="/" />} /> {/* Redirección */}
         </Routes>
       </main>
       <Footer />
