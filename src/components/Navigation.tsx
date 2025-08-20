@@ -22,7 +22,7 @@ const Navigation: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <img 
-              src="/Logo comercial RUJADO.jpg" 
+              src="../public/Logo comercial RUJADO.jpg" 
               alt="Comercial RUJADO" 
               className="h-16 w-16 rounded-full object-cover shadow-md group-hover:shadow-lg transition-shadow duration-200"
             />
