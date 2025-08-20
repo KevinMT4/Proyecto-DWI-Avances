@@ -60,11 +60,12 @@ const Contact: React.FC = () => {
       <section className="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex flex-col items-center mb-6">
-            <img 
+            {/*<img 
               src="/Logo comercial RUJADO.jpg" 
               alt="Comercial RUJADO" 
               className="h-24 w-24 rounded-full object-cover shadow-2xl border-4 border-white mb-4"
-            />
+            />*/}
+            <img src={`${import.meta.env.BASE_URL}Logo comercial RUJADO.jpg`} alt="Comercial RUJADO" className="h-24 w-24 rounded-full object-cover shadow-2xl border-4 border-white mb-4" />
             <h1 className="text-5xl font-bold">Contáctanos</h1>
           </div>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">

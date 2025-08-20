@@ -21,11 +21,11 @@ const Navigation: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <img 
+            {/*<img 
               src="../public/Logo comercial RUJADO.jpg" 
               alt="Comercial RUJADO" 
               className="h-16 w-16 rounded-full object-cover shadow-md group-hover:shadow-lg transition-shadow duration-200"
-            />
+            />*/}
             <img src={`${import.meta.env.BASE_URL}Logo comercial RUJADO.jpg`} alt="Comercial RUJADO" className="h-16 w-16 rounded-full object-cover shadow-md group-hover:shadow-lg transition-shadow duration-200" />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-800">Comercial RUJADO</span>

@@ -38,11 +38,12 @@ const About: React.FC = () => {
       <section className="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <img 
+            {/*<img 
               src="/Logo comercial RUJADO.jpg" 
               alt="Comercial RUJADO" 
               className="h-20 w-20 rounded-full object-cover mx-auto mb-6 shadow-lg"
-            />
+            />*/}
+            <img src={`${import.meta.env.BASE_URL}Logo comercial RUJADO.jpg`} alt="Comercial RUJADO" className="h-20 w-20 rounded-full object-cover mx-auto mb-6 shadow-lg" />
             <h1 className="text-5xl font-bold mb-6">Sobre Comercial RUJADO</h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
               Desde 2009, hemos sido el puente que conecta paleterías con proveedores especializados 

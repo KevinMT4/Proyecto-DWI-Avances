@@ -43,8 +43,13 @@ const Providers: React.FC = () => {
           {/* Provider Header */}
           <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
             <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
-              <img
+              {/*<img
                 src={selectedProviderData.logo}
+                alt={selectedProviderData.name}
+                className="w-24 h-24 rounded-lg object-cover shadow-md"
+              />*/}
+              <img
+                src={`${import.meta.env.BASE_URL}${selectedProviderData.logo}`}
                 alt={selectedProviderData.name}
                 className="w-24 h-24 rounded-lg object-cover shadow-md"
               />

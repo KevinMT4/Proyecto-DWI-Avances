@@ -54,11 +54,12 @@ const Home: React.FC = () => {
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight flex flex-col items-center">
               <span className="text-white mb-4">Bienvenido a</span>
-              <img 
+              {/*<img 
                 src="/Logo comercial RUJADO.jpg" 
                 alt="Comercial RUJADO" 
                 className="h-32 w-32 md:h-40 md:w-40 rounded-full object-cover shadow-2xl border-4 border-white"
-              />
+              />*/}
+              <img src={`${import.meta.env.BASE_URL}Logo comercial RUJADO.jpg`} alt="Comercial RUJADO" className="h-32 w-32 md:h-40 md:w-40 rounded-full object-cover shadow-2xl border-4 border-white" />
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
               Tu socio estratégico en productos para paleterías. Conectamos tu negocio con los mejores 
