@@ -26,6 +26,7 @@ const Navigation: React.FC = () => {
               alt="Comercial RUJADO" 
               className="h-16 w-16 rounded-full object-cover shadow-md group-hover:shadow-lg transition-shadow duration-200"
             />
+            <img src={`${import.meta.env.BASE_URL}logo comercial RUJADO.jpg`} alt="Comercial RUJADO" className="h-16 w-16 rounded-full object-cover shadow-md group-hover:shadow-lg transition-shadow duration-200" />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-800">Comercial RUJADO</span>
               <span className="text-xs text-gray-600 -mt-1">Todo para la industria del helado</span>
